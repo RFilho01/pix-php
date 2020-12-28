@@ -8,9 +8,9 @@ use Mpdf\QrCode\QrCode;
 use Mpdf\QrCode\Output;
 
 // Instancia Principal do Payload Pix
-$obPayload = (new Payload)->setPixKey('13758040493')
+$obPayload = (new Payload)->setPixKey('11111111')
                           ->setDescription('Teste-Payload-Pix')
-                          ->setMerchantName('Maria Victoria Cornelio')
+                          ->setMerchantName('Nome')
                           ->setMerchantCity('JOAO PESSOA')
                           ->setAmount(1.00)
                           ->setTxid('PDV123');
